@@ -1,0 +1,36 @@
+//登录
+http://106.14.194.85/index.php/admin/base/login?username=admin&password=123456 
+请求字段
+参数名      类型    说明
+username	string	账号
+password	string	密码
+
+返回字段
+参数名  类型            说明
+code	number	        200正确400错误
+error	string	        错误信息
+data	array(object)	返回信息
+
+
+
+//注册
+http://106.14.194.85/index.php/admin/base/register?username=ceshi001&password=123456&realname=11111111111&remark=11111111
+请求字段
+参数名      类型    说明
+username	string	用户名
+password	string	用户密码
+realname	string	真实姓名
+remark	string	备注
+
+返回字段
+参数名  类型    说明
+code	number	200正确400错误
+error	string	错误信息
+data	string	返回信息
+
+//返回的错误文字
+		'username.require'    	=> '用户名必须填写',
+		'username.length'    	=> '用户名长度在6到12位',
+		'username.unique'    	=> '用户名已存在',
+		'password.require'    	=> '密码必须填写',
+		'realname.require'    	=> '真实姓名必须填写',
