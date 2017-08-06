@@ -1,0 +1,203 @@
+http://api.vuethink.com/
+http://127.0.0.1:8080/ylx/index.php/admin/hello/index
+http://127.0.0.1:8080/ylx/index.php/admin/base/login
+http://127.0.0.1:8082/index.php/admin/hello/index
+
+//登录
+http://127.0.0.1:8082/index.php/admin/base/login?username=admin&password=123456 
+请求字段
+参数名      类型    说明
+username	string	账号
+password	string	密码
+
+返回字段
+参数名  类型            说明
+code	number	        200正确400错误
+error	string	        错误信息
+data	array(object)	返回信息
+
+
+
+//注册
+http://127.0.0.1:8082/index.php/admin/base/register?username=ceshi001&password=123456&realname=%E5%90%8D%E5%AD%971111&remark=%E5%A4%87%E6%B3%A8
+请求字段
+参数名      类型    说明
+username	string	用户名
+password	string	用户密码
+realname	string	真实姓名
+remark	string	备注
+
+返回字段
+参数名  类型    说明
+code	number	200正确400错误
+error	string	错误信息
+data	string	返回信息
+
+//返回的错误文字
+		'username.require'    	=> '用户名必须填写',
+		'username.length'    	=> '用户名长度在6到12位',
+		'username.unique'    	=> '用户名已存在',
+		'password.require'    	=> '密码必须填写',
+		'realname.require'    	=> '真实姓名必须填写',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+outnet:
+http://139.196.208.140/pay/uc/rechargeuc.php
+http://139.196.208.140/pay/pp/rechargepp.php
+http://139.196.208.140/pay/4399/recharge4399.php
+http://139.196.208.140/pay/meizu/rechargemeizu.php
+http://139.196.208.140/pay/youku/rechargeyouku.php
+http://139.196.208.140/pay/vivo/rechargevivo.php
+http://139.196.208.140/pay/wdj/rechargewdj.php
+http://139.196.208.140/pay/huawei/rechargehuawei.php
+
+test:
+http://139.196.214.226/pay/wdj/rechargewdj.php
+
+innet:
+http://192.168.1.205/pay/uc/rechargeuc.php
+http://192.168.1.205/pay/pp/rechargepp.php
+http://192.168.1.205/pay/4399/recharge4399.php
+http://192.168.1.205/pay/meizu/rechargemeizu.php
+http://192.168.1.205/pay/youku/rechargeyouku.php
+http://192.168.1.205/pay/vivo/rechargevivo.php
+http://192.168.1.205/pay/huawei/rechargehuawei.php
+
+
+
+http://139.196.208.140/login_test.php
+http://139.196.208.140/sdk_balancecheck.php
+http://127.0.0.1/test.php
+http://127.0.0.1/sendpost.php
+$url = 'http://192.168.1.205/sendpost.php';
+http://192.168.1.205/pay/uc/test.php
+
+越南
+http://117.103.235.192/yn/admin.php
+http://117.103.235.192/yn191/admin.php
+
+
+外网
+http://139.196.220.184/ceshi/admin.php
+http://139.196.220.184/uc/admin.php
+http://139.196.220.184/jy/admin.php
+http://139.196.220.184/yn/admin.php
+
+http://139.196.220.184/uc_test/admin.php
+http://139.196.220.184/xcx/admin.php
+
+http://139.196.220.184/dance/dance.html
+老外网
+http://cwgm.crmclick.com/admin.php
+
+
+内网
+http://192.168.1.202/admin.php
+
+http://192.168.1.205/remeber.php
+
+http://192.168.1.205/dance/dance.html
+
+http://192.168.1.205/easy_admin/admin.php
+
+http://192.168.1.205/yn/admin.php
+
+
+
+
+http://192.168.1.205/zlib/unzlib.php
+
+http://192.168.1.205/ThinkPHP_3.2.1/index.php
+
+http://115.159.110.33/admin.php
+
+http://cwgm.crmclick.com/admin.php
+ 
+http://cwgm.crmclick.com/pay/cc/rechargecc.php
+
+
+
+VPN: 222.255.237.206
+account:xcvduser
+PIN:xcVD^&(
+		 
+		 
+		 
+stt	IP Public	Port	Username	Password
+1	117.103.235.191	3389	administrator	tdforbdau$)$(HBt48
+2	117.103.235.192	6688	auo	tdforbdau$)$(HBt48   tyNorkthuc$)$(HBt313
+117.103.235.196 
+117.103.235.197
+117.103.235.198
+
+
+
+139.196.220.184  (uc阿里云)
+administrator jessie123,.,
+rm-uf6o3c9gz1z866m49.mysql.rds.aliyuncs.com  account, accountlog
+rm-uf689xx6i5xp9vm27.mysql.rds.aliyuncs.com game
+rm-uf6zm4663as99bh74.mysql.rds.aliyuncs.com log
+cwt mynameis70
+
+insert into dance_admin values(39,1,'wangming@qq.com',md5(concat('nimdaae',md5('wang1988'))),'md5','查询',1,1,1453806862,1448259535,1453801823,7);
+
+update dance_admin set password = md5(concat('nimdaae',md5('vtc!@#game'))) where ;
+
+
+
+139.196.208.140
+administrator
+
+
+139.196.208.14
+administrator
+
+139.196.220.184
+administrator
+
+rm-uf6kd451j5q5gy6wf.mysql.rds.aliyuncs.com  game
+rm-uf6z43l4kf8ct45py.mysql.rds.aliyuncs.com  log
+cwt Mynameis70
+
+rm-uf6xgy6a767jq4p2e.mysql.rds.aliyuncs.com  这个是2区的game库， 2区的log是rm-uf6z43l4kf8ct45py.mysql.rds.aliyuncs.com的log2库 晚上gm配置下
+账户密码一样的。cwt Mynameis70
+
+139.196.214.226
+USERNAME = root
+PASSWORD = mynameis70
+administrator jessie123,.,
+
+
+泰语版《唱舞团》Appkey
+971E45F81976673CE09642F57435A27E
+113.196.235.178  adminsitrator Efun@168
+
+服务器地址：139.196.208.140  account login gw1 gw2
+139.196.208.14  gs udp1 
+139.196.218.27  dba udp2
+139.196.220.77  gw3 gw4 gw5 
