@@ -40,7 +40,31 @@ data	string	返回信息
 		'password.require'    	=> '密码必须填写',
 		'realname.require'    	=> '真实姓名必须填写',
 
+//注册
+http://127.0.0.1:8082/index.php/admin/base/register?username=ceshi001&password=123456&realname=%E5%90%8D%E5%AD%971111&remark=%E5%A4%87%E6%B3%A8
+请求字段
+参数名      类型    说明
+username	string	用户名
+password	string	用户密码
+realname	string	真实姓名
+remark	string	备注
 
+返回字段
+参数名  类型    说明
+code	number	200正确400错误
+error	string	错误信息
+data	string	返回信息
+
+
+//上传接口	暂用
+http://127.0.0.1:8082/index.php/admin/upload
+
+网页访问测试接口有返回::http://127.0.0.1:8082/up.html
+返回字段
+参数名  类型    说明
+code	number	200正确400错误
+error	string	错误信息
+data	string	返回文件路径
 
 
 
