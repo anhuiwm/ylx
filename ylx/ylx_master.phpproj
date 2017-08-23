@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>ylx_master</Name>
+    <ProjectGuid>700f0f5c-7733-4cd3-a21f-225b1232ed20</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>ylx_master</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="application\" />
+    <Folder Include="application\admin\" />
+    <Folder Include="application\admin\controller\" />
+    <Folder Include="application\admin\model\" />
+    <Folder Include="application\admin\validate\" />
+    <Folder Include="application\common\" />
+    <Folder Include="application\common\adapter\" />
+    <Folder Include="application\common\behavior\" />
+    <Folder Include="application\common\controller\" />
+    <Folder Include="config\" />
+    <Folder Include="extend\" />
+    <Folder Include="extend\com\" />
+    <Folder Include="extend\com\verify\" />
+    <Folder Include="extend\com\verify\assets\" />
+    <Folder Include="extend\com\verify\assets\bgs\" />
+    <Folder Include="extend\com\verify\assets\ttfs\" />
+    <Folder Include="extend\com\verify\assets\zhttfs\" />
+    <Folder Include="public\" />
+    <Folder Include="runtime\" />
+    <Folder Include="runtime\cache\" />
+    <Folder Include="runtime\cache\95\" />
+    <Folder Include="runtime\cache\b1\" />
+    <Folder Include="runtime\cache\ef\" />
+    <Folder Include="runtime\log\" />
+    <Folder Include="runtime\log\201708\" />
+    <Folder Include="uploads\" />
+    <Folder Include="uploads\20170806\" />
+    <Folder Include="uploads\20170820\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include=".htaccess" />
+    <Content Include="application\.htaccess" />
+    <Content Include="composer.json" />
+    <Content Include="extend\com\verify\assets\bgs\1.jpg" />
+    <Content Include="extend\com\verify\assets\bgs\2.jpg" />
+    <Content Include="extend\com\verify\assets\bgs\3.jpg" />
+    <Content Include="extend\com\verify\assets\bgs\4.jpg" />
+    <Content Include="extend\com\verify\assets\bgs\5.jpg" />
+    <Content Include="extend\com\verify\assets\bgs\6.jpg" />
+    <Content Include="extend\com\verify\assets\bgs\7.jpg" />
+    <Content Include="extend\com\verify\assets\bgs\8.jpg" />
+    <Content Include="extend\com\verify\assets\ttfs\1.ttf" />
+    <Content Include="extend\com\verify\assets\ttfs\2.ttf" />
+    <Content Include="extend\com\verify\assets\ttfs\3.ttf" />
+    <Content Include="extend\com\verify\assets\ttfs\4.ttf" />
+    <Content Include="extend\com\verify\assets\ttfs\5.ttf" />
+    <Content Include="extend\com\verify\assets\ttfs\6.ttf" />
+    <Content Include="extend\com\verify\assets\zhttfs\1.ttf" />
+    <Content Include="install.sql" />
+    <Content Include="LICENSE.txt" />
+    <Content Include="phpunit.xml" />
+    <Content Include="public\.htaccess" />
+    <Content Include="README.md" />
+    <Content Include="runtime\log\201708\06.log" />
+    <Content Include="runtime\log\201708\20.log" />
+    <Content Include="think" />
+    <Content Include="up.html" />
+    <Content Include="upload.html" />
+    <Content Include="uploads\20170806\478d88b694fac1d856bf9fd7549f954c.jpg" />
+    <Content Include="uploads\20170806\549b357ea3a263c18191964ed2f14a6e.jpg" />
+    <Content Include="uploads\20170806\b62d5d9291a23dc0c7a0ae3aedbd3c5d.jpg" />
+    <Content Include="uploads\20170820\c5ad18e08893b2d4db33e85ee4bf2957.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="application\admin\common.php" />
+    <Compile Include="application\admin\config.php" />
+    <Compile Include="application\admin\controller\ApiCommon.php" />
+    <Compile Include="application\admin\controller\Base.php" />
+    <Compile Include="application\admin\controller\Groups.php" />
+    <Compile Include="application\admin\controller\Hello.php" />
+    <Compile Include="application\admin\controller\Menus.php" />
+    <Compile Include="application\admin\controller\Photo.php" />
+    <Compile Include="application\admin\controller\Posts.php" />
+    <Compile Include="application\admin\controller\Rules.php" />
+    <Compile Include="application\admin\controller\Structures.php" />
+    <Compile Include="application\admin\controller\SystemConfigs.php" />
+    <Compile Include="application\admin\controller\Upload.php" />
+    <Compile Include="application\admin\controller\Users.php" />
+    <Compile Include="application\admin\model\Common.php" />
+    <Compile Include="application\admin\model\Group.php" />
+    <Compile Include="application\admin\model\Menu.php" />
+    <Compile Include="application\admin\model\Photo.php" />
+    <Compile Include="application\admin\model\Post.php" />
+    <Compile Include="application\admin\model\Rule.php" />
+    <Compile Include="application\admin\model\Structure.php" />
+    <Compile Include="application\admin\model\SystemConfig.php" />
+    <Compile Include="application\admin\model\User.php" />
+    <Compile Include="application\admin\validate\AdminGroup.php" />
+    <Compile Include="application\admin\validate\AdminMenu.php" />
+    <Compile Include="application\admin\validate\AdminPhoto.php" />
+    <Compile Include="application\admin\validate\AdminPost.php" />
+    <Compile Include="application\admin\validate\AdminRule.php" />
+    <Compile Include="application\admin\validate\AdminStructure.php" />
+    <Compile Include="application\admin\validate\AdminUser.php" />
+    <Compile Include="application\command.php" />
+    <Compile Include="application\common.php" />
+    <Compile Include="application\common\adapter\AuthAdapter.php" />
+    <Compile Include="application\common\behavior\InitConfigBehavior.php" />
+    <Compile Include="application\common\controller\Common.php" />
+    <Compile Include="application\tags.php" />
+    <Compile Include="config\config.php" />
+    <Compile Include="config\database.php" />
+    <Compile Include="config\deploy.php" />
+    <Compile Include="config\route_admin.php" />
+    <Compile Include="extend\com\Category.php" />
+    <Compile Include="extend\com\HonrayAuth.php" />
+    <Compile Include="extend\com\SystemLog.php" />
+    <Compile Include="extend\com\Tree.php" />
+    <Compile Include="extend\com\verify\HonrayVerify.php" />
+    <Compile Include="index.php" />
+    <Compile Include="public\index.php" />
+    <Compile Include="public\router.php" />
+    <Compile Include="runtime\cache\95\a1fe934b68ebfee8468bf0bc4f0000.php" />
+    <Compile Include="runtime\cache\b1\97c5fe94ba65b41000e4e598f2c650.php" />
+    <Compile Include="runtime\cache\ef\fe36d4c126838e03c004789e4d11a7.php" />
+  </ItemGroup>
+</Project>
