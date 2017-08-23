@@ -25,6 +25,11 @@ return [
 	// 【基础】注册
 	'admin/base/register' => ['admin/base/register', ['method' => 'GET']],
 
+    //photo
+	'admin/photo/upload' => ['admin/photo/upload', ['method' => 'POST']],
+	'admin/photo/download' => ['admin/photo/download', ['method' => 'GET']],
+	'admin/photo/index' => ['admin/photo/index', ['method' => 'GET']],
+
 	// 【基础】记住登录
 	'admin/base/relogin'	=> ['admin/base/relogin', ['method' => 'POST']],
 	// 【基础】修改密码

@@ -38,14 +38,15 @@ class Common extends Model
 	 */
 	public function createData($param)
 	{
-		
 		// 验证
 		$validate = validate($this->name);
 		if (!$validate->check($param)) {
+                echo"save1";
 			$this->error = $validate->getError();
 			return false;
 		}
 		try {
+        echo"save2";
 			$this->data($param)->allowField(true)->save();
 			return true;
 		} catch(\Exception $e) {
